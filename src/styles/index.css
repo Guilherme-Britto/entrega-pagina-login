@@ -1,1 +1,88 @@
 /* Desenvolva seu código aqui... */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.container-info {
+    background-color: var(--color-ID);
+    height: 100vw;
+    width: 45vw;
+}
+
+.container-info > * {
+    max-width: 40vw;
+}
+
+.container-login > * {
+    max-width: 50vw;
+}
+
+.container-login {
+    width: 55vw;
+}
+
+.logo {
+    height: 330px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.info {
+    background-color: white;
+    margin-top: 50px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 44px;
+}
+
+.input {
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-grey-6);
+    padding: 20px;
+    font-size: 35px;
+}
+
+.input__top {
+    margin-bottom: 50px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.passwordForgotten {
+    font-size: 25px;
+}
+
+.enterLogin {
+    width: 700px;
+    height: 100px;
+    background-color: var(--color-ID);
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}

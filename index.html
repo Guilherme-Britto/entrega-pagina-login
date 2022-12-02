@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/globalStyles.css">
     <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <script defer src="./src/scripts/modal.js"></script>
     <title>Login</title>
 </head>
+
 <body>
-    <script src="./src/scripts/modal.js"></script>
+    <main>
+        <div class="container container-info">
+            <img class="logo"
+                src="https://dtda4cv2md3ne.cloudfront.net/image/filename/4208100/x_lg_YNMTHUl0aRdCbGDTeELzkJ9_DkI83tJG.jpg"
+                alt="logo">
+            <p class="info">Faça o Login para organizar seus treinos e horários.</p>
+        </div>
+        <div class="container container-login">
+            <input class="input input__top" type="text" placeholder="Digite seu email aqui.">
+            <input class="input" type="password" placeholder="Digite sua senha aqui.">
+            <div class="sidebar">
+                <span class="passwordForgotten">Fazer cadastro!</span>
+            </div>
+            <div class="sidebar">
+                <span class="passwordForgotten" id="openModal" >Esqueceu a senha?</span>
+            </div>
+            <button class="enterLogin">Entrar</button>
+        </div>
+    </main>
 </body>
+
 </html>
