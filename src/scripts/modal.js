@@ -52,7 +52,7 @@ function createModal() {
     input.placeholder = 'Digite seu email aqui..'
 
     span.id = 'closeModal'
-    span.type = 'submit'
+    button.type = 'submit'
 
     input.type = 'text'
 
